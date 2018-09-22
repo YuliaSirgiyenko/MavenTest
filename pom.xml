@@ -5,7 +5,12 @@
   <groupId>com.sirgiyenko</groupId>
   <artifactId>MavenTest_2153</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <modules>
+        <module>dao</module>
+      <module>core</module>
+      <module>web</module>
+    </modules>
+    <packaging>pom</packaging>
   <name>MavenTest_2153</name>
 
   <properties>
